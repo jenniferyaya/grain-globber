@@ -5,4 +5,9 @@
     var $h2 = $('<h2>');
     var $p = $('<p>');
 
+    $ul.append($li);
+    $li.append($img);
+    $li.append($h2);
+    $li.append($p);
+    $img.attr('src', 'images/' + grains.img);
   });
