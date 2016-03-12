@@ -10,4 +10,6 @@
     $li.append($h2);
     $li.append($p);
     $img.attr('src', 'images/' + grains.img);
+    $h2.html(grains.name);
+    $p.html(grains.desc);
   });
