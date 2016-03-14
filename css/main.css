@@ -15,17 +15,18 @@ html {
 }
 
 .grains li {
-
+  display: block;
 }
 
 .grains img {
   width: 100px;
+  float: left;
 }
 
 .grains h2 {
-
+  font-size: 1rem;
 }
 
 .grains p {
-
+  font-style: italic;
 }

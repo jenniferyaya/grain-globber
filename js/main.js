@@ -1,4 +1,4 @@
-  grains.forEach (function (grains) {
+  grains.forEach(function (grains) {
     var $ul = $('ul');
     var $li = $('<li>');
     var $img = $('<img>');
